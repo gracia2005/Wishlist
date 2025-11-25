@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Wishlist - 21 ans</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 1.3em;
+            color: #764ba2;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .essential {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .essential-item {
+            font-size: 1.2em;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 15px;
+            margin-top: 20px;
+            font-style: italic;
+            color: #856404;
+            border-left: 4px solid #ffc107;
+        }
+
+        .section {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .color-note {
+            background: linear-gradient(135deg, #2e7d32 0%, #8d6e63 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #764ba2;
+            transition: all 0.3s;
+        }
+
+        .item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            background: #e9ecef;
+        }
+
+        .item-text {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .item-detail {
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .footer {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .footer h3 {
+            color: #2e7d32;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .section-title {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎂 MA WISHLIST 🎂</h1>
+            <p style="font-size: 1.3em; color: #764ba2; font-weight: bold;">Je veux avoir 21 ans dosé les amis !!!</p>
+        </div>
+
+        <div class="essential">
+            <h2 style="margin-bottom: 20px; font-size: 1.8em;">L'ESSENTIEL</h2>
+            <div class="essential-item">Vos prières 🤲🏾</div>
+            <div class="essential-item">Un bouquet d'argent (billet vert)</div>
+            
+            <div class="note">
+                <strong>NB:</strong> Ma maman va prier pour moi ne vous inquiétez pas 😔
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">SPIRITUALITÉ & CULTURE</div>
+            <div class="item">
+                <div class="item-text"> Une boxe chrétienne</div>
+                <div class="item-detail">DM pour plus d'informations</div>
+            </div>
+            <div class="item">
+                <div class="item-text">DOPELYM - ABEG !!!</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">MODE & VÊTEMENTS</div>
+            <div class="color-note">
+                🎨 Privilégier les couleurs : VERT (tous les tons) et MARRON
+            </div>
+            <div class="item">
+                <div class="item-text">Jersey + Top de chez Ayooben</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Une tenue de chez Shade Fit</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Abaya de chez ZAYASHOP</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Un pyjama de chez Kamou Collection</div>
+            </div>
+            <div class="item">
+                <div class="item-text">3 Kimono et des tops avec manches</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Une tenue de mon choix chez MOUDASH</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">ACCESSOIRES</div>
+            <div class="item">
+                <div class="item-text">Sac de marque</div>
+            </div>
+            <div class="item">
+                <div class="item-text">03 paires de lunettes</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Ensemble bracelet + collier + boucles d'oreilles</div>
+                <div class="item-detail">En acier inox</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"> BEAUTÉ & BIEN-ÊTRE</div>
+            <div class="item">
+                <div class="item-text">Séance de head spa</div>
+            </div>
+            <div class="item">
+                <div class="item-text">Spa day</div>
+            </div>
+            <div class="item">
+                <div class="item-text">SKIN CARE corps & visage</div>
+                <div class="item-detail">la meme gamme</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title"> BONUS</div>
+            <div class="item">
+                <div class="item-text"> Autres cadeaux attentionnés (osmo camera😣) </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>💚 Merci d'avance pour vos attentions ! 💚</h3>
+            <p>Pour toute question ou précision, n'hésitez pas à me contacter en DM 💋 </p>
+        </div>
+    </div>
+</body>
+</html>
