@@ -162,8 +162,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎂 MA WISHLIST 🎂</h1>
-            <p style="font-size: 1.3em; color: #764ba2; font-weight: bold;">Je veux avoir 21 ans dosé les amis !!!</p>
+            <h1>🎂 🅼🆈 🆆🅸🆂🅷🅻🅸🆂🆃 🎂</h1>
+            <p style="font-size: 1.3em; color: #764ba2; font-weight: bold;">𝕜𝕚𝕣𝕤𝕥𝕪 𝟚𝟙'𝕤 𝕓𝕚𝕣𝕥𝕙𝕕𝕒𝕪 !!!</p>
         </div>
 
         <div class="essential">
@@ -172,7 +172,7 @@
             <div class="essential-item">Un bouquet d'argent (billet vert)</div>
             
             <div class="note">
-                <strong>NB:</strong> Ma maman va prier pour moi ne vous inquiétez pas 😔
+                <strong>NB:</strong> Maman va prier pour moi ne vous inquiétez pas 😔
             </div>
         </div>
 
@@ -190,7 +190,7 @@
         <div class="section">
             <div class="section-title">MODE & VÊTEMENTS</div>
             <div class="color-note">
-                🎨 Privilégier les couleurs : VERT (tous les tons) et MARRON
+                Privilégier les couleurs : VERT (tous les tons) et MARRON
             </div>
             <div class="item">
                 <div class="item-text">Jersey + Top de chez Ayooben</div>
@@ -241,9 +241,21 @@
         </div>
 
         <div class="section">
+            <div class="section-title"> GADGETS</div>
+            <div class="item">
+                <div class="item-text"> SAMSUNG S22 </div>
+                <div class="item">
+                  <div class="item-text"> Trépied rotatif 360 </div>
+                <div class="item">
+                     <div class="item-text"> Osmo camera</div>
+
+            </div>
+        </div>
+
+        <div class="section">
             <div class="section-title"> BONUS</div>
             <div class="item">
-                <div class="item-text"> Autres cadeaux attentionnés (osmo camera😣) </div>
+                <div class="item-text"> Autres cadeaux attentionnés </div>
             </div>
         </div>
 
